@@ -1,4 +1,4 @@
-#3D Brain Tumor Reconstruction from MRI Data
+# 3D Brain Tumor Reconstruction from MRI Data
 
 Brain tumors are a deadly form of cancer that affect thousands of individuals annually. Highly precise technologies are essential to support doctors in diagnosing, modeling, and treating these tumors. This project reconstructs a **3D model** from a patient’s **2D MRI tumor profile** for use in:
 
@@ -8,13 +8,13 @@ Brain tumors are a deadly form of cancer that affect thousands of individuals an
 
 ---
 
-## 🔍 Motivation
+## Motivation
 
 Converting 2D MRI imaging data into 3D printable models presents significant challenges in medical visualization and personalized treatment. Current methods often lack precision in capturing tumor boundaries and surrounding tissue structures. This project introduces a streamlined pipeline that transforms 2D MRI slices into high-fidelity 3D models suitable for 3D printing.
 
 ---
 
-## 🧾 Input Data: MRI Profile
+## Input Data: MRI Profile
 
 The MRI data is packaged in a `.mat` (MATLAB) file and includes:
 
