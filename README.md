@@ -1,10 +1,10 @@
-# 🧠 3D Brain Tumor Reconstruction from MRI Data
+#3D Brain Tumor Reconstruction from MRI Data
 
 Brain tumors are a deadly form of cancer that affect thousands of individuals annually. Highly precise technologies are essential to support doctors in diagnosing, modeling, and treating these tumors. This project reconstructs a **3D model** from a patient’s **2D MRI tumor profile** for use in:
 
-- 🧠 Neurosurgical Planning  
-- 🧪 Modeling & Simulation  
-- 🎓 Medical Training  
+-  Neurosurgical Planning  
+-  Modeling & Simulation  
+-  Medical Training  
 
 ---
 
@@ -28,7 +28,7 @@ The MRI data is packaged in a `.mat` (MATLAB) file and includes:
 
 ---
 
-## 🧬 Multi-Slice Profile
+##  Multi-Slice Profile
 
 MRI scans are acquired at 6mm slice intervals, making it difficult to understand what lies between slices. This necessitates interpolation to build a continuous 3D structure.
 
@@ -37,7 +37,7 @@ MRI scans are acquired at 6mm slice intervals, making it difficult to understand
 
 ---
 
-## 🎯 Tumor Masking Example
+##  Tumor Masking Example
 
 Each mask defines tumorous regions per slice.
 
@@ -45,7 +45,7 @@ Each mask defines tumorous regions per slice.
 
 ---
 
-## 🔄 Interpolation: Filling the Gaps
+##  Interpolation: Filling the Gaps
 
 To reconstruct 3D data from sparsely spaced MRI slices, a custom **weighted piecewise interpolation** algorithm was developed.
 
@@ -75,7 +75,7 @@ The interpolated signed distances are converted back into binary masks. These ar
 
 ---
 
-## 🧱 Marching Cubes: 3D Geometry Generation
+##  Marching Cubes: 3D Geometry Generation
 
 Marching Cubes converts the 3D voxel representation into a continuous 3D mesh suitable for printing.
 
@@ -83,13 +83,13 @@ Marching Cubes converts the 3D voxel representation into a continuous 3D mesh su
 
 ---
 
-## 🧑‍⚕️ Final Patient Tumor Rendering
+##  Final Patient Tumor Rendering
 
 ![Final Renderings](https://github.com/user-attachments/assets/56009365-faca-41f3-915e-3aa4edc5b4a4)
 
 ---
 
-## 🖨️ High-Resolution 3D Printed Tumor
+##  High-Resolution 3D Printed Tumor
 
 This is an actual tumor, printed to scale, based on real patient data. Its size alone motivates the importance of this pipeline.
 
@@ -97,7 +97,7 @@ This is an actual tumor, printed to scale, based on real patient data. Its size 
 
 ---
 
-## 🧰 Implementation Details
+##  Implementation Details
 
 - Written entirely in Python + MATLAB
 - Modular class-based code structure
@@ -112,7 +112,7 @@ This is an actual tumor, printed to scale, based on real patient data. Its size 
 
 ---
 
-## 💡 Future Work
+##  Future Work
 
 - Automating segmentation (deep learning-based tumor masking)
 - Integrating MRI-to-Print pipelines into hospital imaging software
@@ -120,6 +120,6 @@ This is an actual tumor, printed to scale, based on real patient data. Its size 
 
 ---
 
-## 📫 Contact
+##  Contact
 
 For inquiries, improvements, or collaborations, feel free to reach out via email (ayagoobi@bu.edu) or open an issue on this repository.
